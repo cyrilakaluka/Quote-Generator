@@ -5,8 +5,8 @@ const loader = document.getElementById('loader');
 const twitter = document.getElementById('twitter');
 const newQuote = document.getElementById('new-quote');
 
-const PROXY_URL = 'http://api.allorigins.win/get?url=';
-const RANDOM_QUOTE_URL = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json&key=0';
+const PROXY_URL = 'https://api.allorigins.win/get?url=';
+const RANDOM_QUOTE_URL = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json&key=0';
 const TWITTER_URL = 'https://twitter.com/intent/tweet?text=';
 
 function showLoadSpinner() {
